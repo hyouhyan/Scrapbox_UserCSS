@@ -1,0 +1,17 @@
+.level-2 img {
+    width: 15.0%;
+    max-height: none;
+    object-fit: contain;
+}
+
+.level-3 img {
+    width: 20.0%;
+    max-height: none;
+    object-fit: contain;
+}
+
+.level-4 img {
+    width: 25.0%;
+    max-height: none;
+    object-fit: contain;
+}

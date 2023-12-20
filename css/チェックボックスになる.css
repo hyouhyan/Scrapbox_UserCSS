@@ -1,0 +1,29 @@
+/* チェックボックスになるタグ v2 Font Awesome版 */
+.line:not(.cursor-line) a[href$='/o']:not(.icon) span,
+.line:not(.cursor-line) a[href$='/v']:not(.icon) span {
+    display: inline-block;
+    width: 0;
+    text-indent: -9999px
+}
+
+.line:not(.cursor-line) a[href$='/o']:not(.icon)::after,
+.line:not(.cursor-line) a[href$='/v']:not(.icon)::after {
+    display: inline-block;
+    min-width: 1.15em;
+    padding-left: 1px;
+    font-family: 'Font Awesome 5 Free';
+    font-weight: 400;
+    font-size: 120%;
+    text-align: center;
+    vertical-align: middle
+}
+
+.line:not(.cursor-line) a[href$='/o']:not(.icon)::after {
+    content: '\f0c8';
+    color: #08BDBD
+}
+
+.line:not(.cursor-line) a[href$='/v']:not(.icon)::after {
+    content: '\f14a';
+    color: #2489C5
+}

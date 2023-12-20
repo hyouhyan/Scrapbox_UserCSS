@@ -1,0 +1,26 @@
+/* バッヂ風 */
+.line a[href$="/TODO"],
+.line a[href$="/IMP"],
+.line a[href$="/MEMO"],
+.deco-\! {
+    display: inline-block;
+    padding-left: .3em;
+    padding-right: .3em;
+    border-radius: .2em;
+    text-align: center;
+    font: bolder 100%/normal Futura, Arial, sans-serif;
+    color: #FFF
+}
+
+.line a[href$="/TODO"] {
+    background-color: #08BDBD
+}
+
+.line a[href$="/IMP"],
+.deco-\! {
+    background-color: #FF9914
+}
+
+.line a[href$="/MEMO"] {
+    background-color: #66ccff
+}

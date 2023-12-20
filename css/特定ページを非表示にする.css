@@ -1,0 +1,16 @@
+.page-list .grid li.page-list-item[data-page-title="settings"],
+.page-list .grid li.page-list-item[data-page-title^="."],
+.page-list .grid li.page-list-item[data-page-title$="UserCSS"],
+.page-list .grid li.page-list-item[data-page-title$="UserScript"],
+.page-list .grid li.page-list-item[data-page-title="hr"],
+.page-list .grid li.page-list-item[data-page-title="IMP"],
+.page-list .grid li.page-list-item[data-page-title="TODO"] {
+    display: none;
+}
+
+.related-page-list li.page-list-item[data-page-title$="."],
+.related-page-list li.page-list-item[data-page-title="hr"],
+.related-page-list li.page-list-item[data-page-title="IMP"],
+.related-page-list li.page-list-item[data-page-title="TODO"] {
+    display: none;
+}

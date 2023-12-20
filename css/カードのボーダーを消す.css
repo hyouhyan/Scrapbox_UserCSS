@@ -1,0 +1,14 @@
+.grid li.page-list-item a .pin,
+.description .line .inline-icon {
+    display: none;
+}
+
+.grid li.page-list-item.pin a .title {
+    color: #7b4741;
+    /* 折り曲げの代わりにPinのタイトルカラーを変更 */
+}
+
+.grid li.page-list-item a .header {
+    border-top: none;
+    /* カード上部のラインを非表示 */
+}

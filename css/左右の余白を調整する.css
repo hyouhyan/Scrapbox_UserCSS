@@ -1,0 +1,23 @@
+@media screen and (min-width: 1261px) {
+    :root {
+        --margin-side: calc(50vw - 592px);
+    }
+}
+
+@media screen and (min-width: 992px) and (max-width: 1260px) {
+    :root {
+        --margin-side: 38px;
+    }
+}
+
+@media screen and (min-width: 768px) and (max-width: 991px) {
+    :root {
+        --margin-side: 23px;
+    }
+}
+
+@media screen and (max-width: 767px) {
+    :root {
+        --margin-side: 8px;
+    }
+}

@@ -1,0 +1,13 @@
+/* 角を丸くする*/
+.grid li.page-list-item a {
+    border-radius: 15px;
+}
+
+/* 画像をリストの中にピッタリ合わせて入れる*/
+.grid li.page-list-item a .content {
+    height: 100%;
+}
+
+.grid li.page-list-item a .icon {
+    padding: 0px;
+}

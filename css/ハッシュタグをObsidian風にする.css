@@ -1,0 +1,22 @@
+/* ハッシュタグ (リンクあり) */
+a[type="hashTag"].page-link {
+    border-radius: 16px;
+    margin: 0px 1px;
+    padding: 2px 8px;
+    color: rgb(131, 99, 237);
+    background-color: rgb(242, 238, 253);
+}
+
+[data-hover-visible] a[type="hashTag"].page-link:hover {
+    color: rgb(131, 99, 237);
+}
+
+/* ハッシュタグ (リンクなし) */
+a[type="hashTag"].empty-page-link {
+    background-color: #FDEEEE;
+    color: #EE6464;
+}
+
+[data-hover-visible] a[type="hashTag"].empty-page-link:hover {
+    color: #EE6464;
+}

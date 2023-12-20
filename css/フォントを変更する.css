@@ -1,0 +1,13 @@
+@import url('https://fonts.googleapis.com/css2?family=M+PLUS+1p:wght@100;300;400;500;700;800;900&display=swap');
+@import url('https://hyouhyan.com/font/Cica/font.css');
+
+.editor,
+.stream,
+li.page-list-item {
+    font-family: 'メイリオ', 'Meiryo', 'M PLUS 1p', 'Hiragino Kaku Gothic Pro', 'ヒラギノ角ゴ Pro W3', 'sans-serif';
+}
+
+/* コードブロック用 */
+.line span.code-block .code-body, code {
+    font-family: 'Cica';
+}

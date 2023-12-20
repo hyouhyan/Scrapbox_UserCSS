@@ -1,0 +1,12 @@
+/* 中黒を横棒にする */
+.app .line .indent-mark .dot {
+    height: .2em;
+    width: .4em;
+    border-radius: 25%;
+    background-color: rgba(173, 173, 173, .55)
+}
+
+.app:not(.presentation) .line .indent-mark .dot {
+    top: auto;
+    bottom: 0
+}

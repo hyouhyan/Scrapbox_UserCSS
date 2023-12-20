@@ -1,0 +1,7 @@
+.deco-_ {
+    text-emphasis: sesame #e5bb09;
+}
+
+span:has(>.deco-_) {
+    text-decoration: none !important;
+}
