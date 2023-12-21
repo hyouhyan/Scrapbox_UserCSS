@@ -1,0 +1,56 @@
+/* 付箋記法のスタイル例 */
+.line:not(.cursor-line) .deco-\~ {
+    display: inline-block;
+    position: absolute;
+    top: -0.6em;
+    right: -6vw;
+    max-width: 40%;
+    padding: .3rem 1rem;
+    border-right: 1rem solid #04B2D9;
+    background-color: #f9f8f6;
+    transform: rotate(-0.8deg);
+    box-shadow: 4px 1px 3px rgba(0, 0, 0, .2)
+}
+
+.presentation .line .deco-\~ {
+    position: static;
+    max-width: 100%
+}
+
+@media screen and (max-width: 768px) {
+    .line:not(.cursor-line) .deco-\~ {
+        position: static;
+        max-width: 100%
+    }
+}
+
+@media print {
+    .line:not(.cursor-line) .deco-\~ {
+        right: 0;
+        border-bottom: 1px solid #ccc;
+        background-color: #f9f8f6
+    }
+}
+
+/* 太字記法との組み合わせでスタイルを変える場合 */
+/* カラーパレット→ https://color.adobe.com/Softie-color-theme-2233237/ */
+.line .level-2 .deco-\~ {
+    border-right-color: #009175
+}
+
+.line .level-3 .deco-\~ {
+    border-right-color: #EFBB33
+}
+
+.line .level-4 .deco-\~ {
+    border-right-color: #F23E2E
+}
+
+/* 付箋記法内で打消し線記法と下線記法を併用する場合 */
+.line .deco-\~.deco-- {
+    text-decoration: line-through
+}
+
+.line .deco-\~.deco-_ {
+    text-decoration: underline
+}
