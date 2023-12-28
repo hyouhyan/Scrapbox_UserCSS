@@ -9,6 +9,8 @@ rm importall.css
 # 出力ファイルの作成
 touch importall.css
 
+echo -e '@charset "utf-8";'\\n  >> importall.css
+
 # 各cssファイルをimportall.cssにリダイレクト
 for css_file in $css_files; do
     echo "@import \"./css/$css_file\";" >> importall.css
