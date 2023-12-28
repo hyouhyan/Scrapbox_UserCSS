@@ -1,3 +1,5 @@
+/* 画像のサイズを変更できるようにする */
+
 .level-2 img {
     width: 15.0%;
     max-height: none;

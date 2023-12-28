@@ -1,3 +1,5 @@
+/* ランダムジャンプボタンを消す */
+
 .random-jump-button {
     display: none !important;
 }

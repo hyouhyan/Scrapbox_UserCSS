@@ -1,3 +1,5 @@
+/* カードのボーダーを消す */
+
 .grid li.page-list-item a .pin,
 .description .line .inline-icon {
     display: none;

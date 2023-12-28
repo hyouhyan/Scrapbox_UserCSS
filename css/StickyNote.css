@@ -1,3 +1,5 @@
+/* 付箋記法 */
+
 /* 付箋記法のスタイル例 */
 .line:not(.cursor-line) .deco-\~ {
     display: inline-block;

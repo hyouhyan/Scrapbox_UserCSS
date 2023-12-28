@@ -1,3 +1,5 @@
+/* 箇条書きを控えめにする */
+
 /* 中黒を横棒にする */
 .app .line .indent-mark .dot {
     height: .2em;

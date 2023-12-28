@@ -1,3 +1,5 @@
+/* ハッシュタグをObsidian風にする */
+
 /* ハッシュタグ (リンクあり) */
 a[type="hashTag"].page-link {
     border-radius: 16px;

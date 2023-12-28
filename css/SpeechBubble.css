@@ -1,3 +1,5 @@
+/* 吹き出し記法 */
+
 /* フキダシ記法版 */
 .line:not(.cursor-line) .deco-\{ {
     display: inline-block;

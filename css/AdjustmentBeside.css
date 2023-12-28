@@ -1,3 +1,5 @@
+/* 左右の余白を調整する */
+
 @media screen and (min-width: 1261px) {
     :root {
         --margin-side: calc(50vw - 592px);

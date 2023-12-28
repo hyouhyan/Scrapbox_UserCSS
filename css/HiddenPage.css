@@ -1,3 +1,5 @@
+/* 特定ページを非表示にする */
+
 .page-list .grid li.page-list-item[data-page-title="settings"],
 .page-list .grid li.page-list-item[data-page-title^="."],
 .page-list .grid li.page-list-item[data-page-title$="UserCSS"],

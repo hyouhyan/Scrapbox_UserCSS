@@ -1,3 +1,5 @@
+/* 画像に影をつける */
+
 .line .image {
     box-shadow: 0px 0px 5px 0px #000;
 }

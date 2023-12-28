@@ -1,3 +1,5 @@
+/* 説明を追加する */
+
 .page-list.clearfix::before {
     content: var(--description);
     text-align: center;

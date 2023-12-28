@@ -1,0 +1,5 @@
+/* FreePlanバッジを非表示にする */
+
+.plan-badge {
+    display: none !important;
+}
