@@ -1,4 +1,5 @@
 @import "./css/FreePlanバッジを非表示にする.css";
+@import "./css/付箋記法.css";
 @import "./css/バッヂになる.css";
 @import "./css/吹き出し記法.css";
 @import "./css/説明を追加する.css";
@@ -23,5 +24,4 @@
 @import "./css/コードブロックの行番号を表示する.css";
 @import "./css/ドロップダウンの大きさを制限する.css";
 @import "./css/画像のサイズを変更できるようにする.css";
-@import "./css/ページのリストの形を丸っこく変更する.css";
-@import "./css/付箋記法.css";
+@import "./css/ページのリストの形を丸っこく変更する.css";
