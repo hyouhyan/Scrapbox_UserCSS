@@ -1,5 +1,7 @@
 @charset "utf-8";
 
+@import url('https://fonts.googleapis.com/css2?family=M+PLUS+1p:wght@100;300;400;500;700;800;900&display=swap');
+
 @import "./css/AddDescription.css";
 @import "./css/AdjustmentBeside.css";
 @import "./css/AdjustmentTable.css";
