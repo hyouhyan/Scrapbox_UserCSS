@@ -1,8 +1,8 @@
 # Scrapbox_UserCSS
  
---Scrapboxのsettingsページにて、以下をコピペすれば使える--  
+~~Scrapboxのsettingsページにて、以下をコピペすれば使える~~  
 Scrapboxのセキュリティポリシーでgithub.ioがブロックされるため、使えません。  
-同様の理由で当リポジトリは開発を一時停止しています。
+同様の理由で**当リポジトリは開発を一時停止しています**。
 
 ```
 code:style.css
